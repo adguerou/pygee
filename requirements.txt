@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+setuptools
+geopandas
+xarray
+seaborn
+dask
+ee
+eemont
+geemap
