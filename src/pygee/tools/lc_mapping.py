@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 import xarray
 from matplotlib.colors import BoundaryNorm, ListedColormap
-from pyce.tools import lc_colormaps
+from pygee.tools import lc_colormaps
 
 reload(lc_colormaps)
 
