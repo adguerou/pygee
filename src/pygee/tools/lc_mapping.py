@@ -25,46 +25,6 @@ _mapping_kwargs = "mapping_kwargs"
 
 # Dictionaries of Land Cover Map settings
 # ========================================
-oso17 = {
-    _mapping_kwargs: {"col_type": 0, "col_code": 1, "header": None, "sep": ":"},
-    _lcm_colors: lc_colormaps.colors_oso17,
-    _lcm_codes_to_mask: [11, 12, 41, 42, 43, 44, 46, 221, 222],
-    _lcm_mask_val: 223,
-    _lcm_reindex: [6, 4, 1, 0, 3, 7, 2, 5, 8],
-}
-
-oso18 = {
-    _mapping_kwargs: {"col_type": 0, "col_code": 1, "header": None, "sep": ":"},
-    _lcm_colors: lc_colormaps.colors_oso18,
-    _lcm_codes_to_mask: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 21, 255],
-    _lcm_mask_val: 223,
-    _lcm_reindex: [6, 5, 2, 1, 4, 0, 3, 7, 8],
-}
-
-h1a = {
-    _mapping_kwargs: {"col_type": 0, "col_code": 1, "header": None, "sep": ":"},
-    _lcm_colors: lc_colormaps.colors_h1a,
-    _lcm_codes_to_mask: None,
-    _lcm_mask_val: None,
-    _lcm_reindex: [6, 3, 2, 0, 1, 4, 5],
-}
-
-h1a_rf = {
-    _mapping_kwargs: {"col_type": 0, "col_code": 1, "header": None, "sep": ":"},
-    _lcm_colors: lc_colormaps.colors_h1a_rf,
-    _lcm_codes_to_mask: None,
-    _lcm_mask_val: None,
-    _lcm_reindex: [4, 0, 3, 2, 1, 6, 5],
-}
-
-h1b = {
-    _mapping_kwargs: {"col_type": 0, "col_code": 1, "header": None, "sep": ":"},
-    _lcm_colors: lc_colormaps.colors_h1b,
-    _lcm_codes_to_mask: [10],
-    _lcm_mask_val: None,
-    _lcm_reindex: [3, 2, 1, 6, 0, 4, 5],
-}
-
 h1b_paper = {
     _mapping_kwargs: {"col_type": 0, "col_code": 1, "header": None, "sep": ":"},
     _lcm_colors: lc_colormaps.colors_h1b_paper,
@@ -73,48 +33,11 @@ h1b_paper = {
     _lcm_reindex: [3, 2, 1, 6, 0, 4, 5, 8, 9],
 }
 
-prioritice = {
-    _mapping_kwargs: {"col_type": 0, "col_code": 1, "header": None, "sep": ":"},
-    _lcm_colors: lc_colormaps.prioritice,
-    _lcm_codes_to_mask: None,
-    _lcm_mask_val: None,
-    _lcm_reindex: [0, 1, 2, 3],
-}
-
-s2glc = {
-    _mapping_kwargs: {
-        "col_type": 5,
-        "col_code": 0,
-        "header": None,
-        "comment": "#",
-        "skiprows": 7,
-    },
-    _lcm_colors: lc_colormaps.colors_s2glc,
-    _lcm_codes_to_mask: [0, 62, 73, 75, 105, 106, 255],
-    _lcm_mask_val: 223,
-    _lcm_reindex: [6, 5, 1, 0, 3, 4, 2, 7, 8],
-}
-
-tp_lc10 = {
-    _mapping_kwargs: {"col_type": 0, "col_code": 1, "header": None, "sep": ":"},
-    _lcm_colors: lc_colormaps.colors_tp_lc10,
-    _lcm_codes_to_mask: None,
-    _lcm_mask_val: None,
-    _lcm_reindex: None,
-}
-
 # Dictionnary that compile all mappings
 # --------------------------------------
 dict_lc_maps = {
-    "oso17": oso17,
-    "oso18": oso18,
-    "h1a": h1a,
-    "h1a_rf": h1a_rf,
-    "s2glc": s2glc,
     "h1b": h1b,
     "h1b_paper": h1b_paper,
-    "tp_lc10": tp_lc10,
-    "prioritice": prioritice,
 }
 
 
