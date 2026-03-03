@@ -33,11 +33,12 @@ A **python3** environment is required.
 Multiple choices are possible depending on your preferences.   
 All have been created with the help of **[anaconda](https://www.anaconda.com/download)**  
 
-**A.** Excat clone of the python environment used for this study
+**A.** Exact clone of the python environment used for this study  
+
 One can create such an environment (after download of <mark>pygee</mark>):
 ```
 cd pygee
-conda env create -f environment.yml
+conda env create -f environment_pygee.yml
 ```
 
 **B.** A simpler python environment can be created instead with basic modules:
@@ -82,4 +83,4 @@ python3 setupy.py install
 The **landcover maps** of the European Alps **postglacial areas** produced in 
 **Guerou et al (submitted)** can be reproduced by executing the notebooks founds in <mark>notebooks/</mark>
 
-Exports and savings of the various outputs can be skipped. All necessary datasets have indeed been shared to avoid long and high GEE computational runs. They can be however vizualize without the need to export them.
+Exports and savings of the various outputs can be skipped. All necessary datasets have indeed been shared to avoid long GEE computational runs. They can be however visualized without the need to export them.
