@@ -80,6 +80,6 @@ python3 setupy.py install
 
 ## Runs
 The **landcover maps** of the European Alps **postglacial areas** produced in 
-**Guerou et al (submitted)** can be reproduced by executing the notebooks founds in <mark>tutorials/</mark>
+**Guerou et al (submitted)** can be reproduced by executing the notebooks founds in <mark>notebooks/</mark>
 
 Exports and savings of the various outputs can be skipped. All necessary datasets have indeed been shared to avoid long and high GEE computational runs. They can be however vizualize without the need to export them.
